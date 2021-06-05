@@ -1,0 +1,17 @@
+#flogo{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+
+@media (max-width: 600px) {
+    footer{
+        margin-left: 5% !important;
+        
+    }        
+}
+
+
+.mycolor{
+    color: #33aeff;
+}

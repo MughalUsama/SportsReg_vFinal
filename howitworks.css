@@ -1,0 +1,33 @@
+
+.how-box{
+background-image: url("./img/header-background.57976c20d010be0d10c2.jpg");}
+.how-box{
+    margin-left: 7% !important;
+    padding-top: 2.5% !important;
+    padding-bottom: 2.5% !important;
+    margin-top: 10.8% !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .how-box{
+        margin-left: 5.3% !important;
+        margin-top: 39% !important;
+    }
+    #save-money{
+        margin-left: 5.3% !important;
+        background-color: white;
+    }
+    #save-money>div>h3{
+    font-size: 120% !important;
+    }
+
+}
+#save-money{
+    margin-top: 0.1% !important;
+    background-color:#44D9E6 !important;
+
+
+}
+body{
+    background-color:#44D9E6 !important;
+}

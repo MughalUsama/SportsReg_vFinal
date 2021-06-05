@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px){
+    
+    .chosen-container{
+        width: 100% !important;
+    }
+    footer{
+        display: none;
+    }
+}
+footer{
+    margin-left: 0% !important;
+}
+.chosen-container{
+    width: 93% !important;
+    margin-left: 5% !important;
+}

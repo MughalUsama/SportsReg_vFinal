@@ -1,0 +1,91 @@
+#detail-form {
+    width: 50%;
+    box-sizing: border-box;
+}
+input, input::placeholder{
+    font-size: 13px;
+}
+label{
+    font-size: 85% !important;
+}
+.visible-n{
+    visibility: hidden;
+}
+@media (min-width: 992px) {
+    #div1 {
+        box-sizing: border-box;
+        width: 96%;
+        margin-left: .2%;
+    }
+    #div2 {
+        box-sizing: border-box;
+        width: 96%;
+        margin-left: .2%;
+    }
+    #divP1 {
+        box-sizing: border-box;
+        width: 29%;
+        margin-left: 12%;
+    }
+    #divP2 {
+        box-sizing: border-box;
+        width: 32%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #div1 {
+        box-sizing: border-box;
+        width: 93.5%;
+        margin-left: .25%;
+    }
+    #div2 {
+        box-sizing: border-box;
+        width: 93.5%;
+        margin-left: .25%;
+    }
+    #div3 {
+        box-sizing: border-box;
+        width: 93.5%;
+        margin-left: .25%;
+    }
+    #divP1 {
+        box-sizing: border-box;
+        width: 30%;
+        margin-left: 6%;
+    }
+    #divP2 {
+        box-sizing: border-box;
+        width: 25%;
+    }
+}
+
+@media (max-width: 767px) {
+    #div1 {
+        box-sizing: border-box;
+        width: 100%;
+    }
+    #div2 {
+        box-sizing: border-box;
+        width: 100%;
+    }
+    #div3 {
+        box-sizing: border-box;
+        width: 100%;
+    }
+    #divP1 {
+        box-sizing: border-box;
+        width: 100%;
+    }
+    #divP2 {
+        box-sizing: border-box;
+        width: 100%;
+    }
+    p {
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+    #quantity2 {
+        margin-top: 5%;
+    }
+}

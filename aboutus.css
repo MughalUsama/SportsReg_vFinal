@@ -1,0 +1,64 @@
+
+#about-container{
+    font-family: Georgia, serif;
+    margin-top: 150px;
+    margin-bottom: 0%;    
+    box-shadow: 0 0 3pt 2pt #44D9E6;
+
+}
+p{
+    font-size: 105%;
+}
+.h2-color{
+    color: #44D9E6;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.my-h5{
+    color: #44D9E6;
+    animation: mytrans 2s 6;
+    -webkit-animation:  mytrans 2s linear 1;
+}
+@keyframes mytrans{
+    50% {
+        transform: scale(0.98);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.card-header{
+    font-family: Georgia, serif;
+    background-color:white;
+}
+
+#partner-img{
+    background-image: url('./img/header-background.57976c20d010be0d10c2.jpg'), url('./img/footballers.png');
+    background-blend-mode: darken; 
+    background-size: contain;
+    background-repeat: no-repeat,no-repeat;
+    width: 100%;
+}
+@media only screen and (max-width: 766px){
+
+    #about-container{
+    margin-left: 5%;
+    background: linear-gradient(90deg,#0062e6,#33aeff);
+    }
+
+#center-page{
+        padding-right: 0%;
+        padding-left: 0%;
+
+    }
+    p{
+        padding-right: 0% !important;
+        padding-left: 0% !important;
+    }
+    #outline-term{
+        padding-right: 0%;
+        padding-left: 0%;
+    
+    }
+
+}

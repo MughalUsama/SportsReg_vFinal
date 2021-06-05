@@ -1,0 +1,31 @@
+
+#term-container{
+    background: linear-gradient(90deg,#0062e6,#33aeff);
+    font-family: Georgia, serif;
+    margin-top: 150px;
+    margin-bottom: 0%;    
+    box-shadow: 0 0 3pt 2pt #44D9E6;
+
+}
+
+.card-header{
+    font-family: Georgia, serif;
+    background-color:white;
+}
+
+@media only screen and (max-width: 600px){
+    #term-container{
+        margin-left: 5%;
+        margin-bottom: 2%;
+    }
+    #outline-term{
+        padding-right: 0% !important;
+        padding-left: 1% !important;
+    }
+    h2{
+        font-size: 150%;
+    }
+    .card{
+        margin-left: 2% !important;
+    }
+}

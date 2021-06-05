@@ -1,0 +1,36 @@
+
+#faq-container{
+    background: linear-gradient(90deg,#0062e6,#33aeff);
+    font-family: Georgia, serif;
+
+}
+#faq-container{
+    margin-top: 150px;
+    margin-bottom: 0%;    
+    box-shadow: 0 0 3pt 2pt #44D9E6;
+
+}
+.card-header{
+    font-family: Georgia, serif;
+    background-color:white;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px){
+    #faq-container{
+        margin-left: 5% !important;
+    }
+    #outline-faqs{
+        width: 110% !important;
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+}
+
+.card-header h5 a{
+    color: rgba(0, 0, 0, 0.774) !important;
+    font-weight:normal;
+    font-size: 110% !important;
+}

@@ -1,0 +1,36 @@
+#outline-register{
+    box-shadow: 0 0 3pt 2pt #44D9E6;
+    background-image: url("./img/header-background.57976c20d010be0d10c2.jpg"),url(./img/footballers.png);
+    background-size: cover;
+    background-blend-mode:luminosity;
+    width: 80%;
+    font-family: Georgia, serif;
+
+}
+
+#regform-container{
+    margin-top: 160px;
+    margin-bottom: 10%;
+}
+.reginput-border{
+    border-radius: 2%;
+    border-color: #44D9E6;
+    background-color: #E7E6E6;
+}
+
+#regsub-btn:hover{
+    box-shadow: 0 0 3pt 2pt #44D9E6;
+    transform: scale(1.1);
+}
+
+#regsub-btn{
+    border-radius: 5%;
+    border-color: #44D9E6;
+    background-color: #44D9E6;
+}
+
+@media only screen and (max-width: 600px) {
+    #outline-register{
+        width: 112%;
+   }
+}

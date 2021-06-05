@@ -1,0 +1,81 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.addpro-btn, #pro-name, #cat-name,#addcat-btn,#rempro-name, #remcat-name, #addsports-btn,#remsports-btn, #remsports-name {
+    border-color: #44D9E6 !important;
+    border-style: solid;
+}
+
+.addpro-btn, .addcat-btn{
+     background-color: #44D9E6;
+     color: white;
+     box-shadow: #44D9E6;
+}
+
+.outline-00{
+    box-shadow: 0 0 3pt 2pt #44D9E6;
+    background-image: url("./img/header-background.57976c20d010be0d10c2.jpg");
+    background-size: cover;
+}
+
+.outline-01{
+    box-shadow: 0 0 3pt 2pt #44D9E6;
+    background-image: url("./img/header-background.flip.jpg");
+    background-size: cover;
+}
+#card-container{
+    margin-top: 10% !important;
+}
+@media only screen and (max-width: 600px){
+    footer{
+        display: none;
+    }
+    select{
+        width: 100% !important;
+    }
+    .padd-x{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+    .padd-y{
+        padding-left: 0% !important;
+        padding-right:0% !important;
+        margin-left: 1% !important;
+    }
+
+    .padd-y1{
+        padding-left: 0% !important;
+        padding-right:3% !important;
+        margin-left: 10% !important;
+    }
+    #card-container{
+        margin-left: 10% !important;
+    }
+    .outline-00{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+    .outline-01{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+        background: linear-gradient(90deg,#0062e6,#33aeff);
+    }
+    form{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    
+    }
+    h4{
+        margin-left: -5% !important;
+        font-size: 113% !important;
+
+    }
+    .addpro-btn, .addcat-btn{
+        margin-top: 2% !important;
+        margin-left: -1% !important;
+    }
+    #card-container{
+        margin-top: 30% !important;
+    }
+}
